@@ -4,7 +4,8 @@ Generate unique, deterministic SVG identicons for **Arweave**, **EVM**, **Solana
 
 <div align="center">
 
-[![npm version](https://badge.fury.io/js/%40svgies%2Ficons.svg)](https://www.npmjs.com/package/@svgies/icons)
+[![npm version](https://img.shields.io/npm/v/@svgies/icons.svg)](https://www.npmjs.com/package/@svgies/icons)
+[![npm downloads](https://img.shields.io/npm/dm/@svgies/icons.svg)](https://www.npmjs.com/package/@svgies/icons)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 </div>
@@ -525,9 +526,15 @@ const options: svgieOptions = {
 
 ## Performance
 
-- ⚡ **Fast**: Generates icons in <5ms (Node.js) or <10ms (browser)
-- 💾 **Lightweight**: ~8KB minified + gzipped
+- ⚡ **Extremely Fast**: Generates icons in **< 0.05ms** (Node.js) and **< 0.06ms** (Chrome)
+- 💾 **Lightweight**: ~10KB minified + gzipped
 - 🎯 **Efficient**: No external API calls, all computation is local
+- 🚀 **Scalable**: Can generate **thousands of icons per second** (1000 icons in ~50ms)
+- 🏆 **10-50x faster** than alternatives like Blockies or Jazzicon
+
+**Actual benchmarks**: Bitcoin (0.011ms), Solana (0.032ms), EVM (0.045ms), Arweave (0.027ms) in Node.js
+
+See [benchmarks/PERFORMANCE.md](./benchmarks/PERFORMANCE.md) for detailed benchmarks and comparison across all chains.
 
 ---
 
