@@ -1,5 +1,11 @@
 # @7i7o/arSvgies
 
+## 2.0.1
+
+### Patch Changes
+
+- af35c40: Add benchmarks to measure icons generation speed for all chains
+
 ## 2.0.0
 
 ### Major Changes
