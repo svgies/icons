@@ -1,4 +1,4 @@
-# @7i7o/arSvgies
+# @svgies/icons
 
 ## 2.0.2
 
